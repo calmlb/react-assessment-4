@@ -17,11 +17,11 @@ class App extends Component {
   handleClick = (circleNum) => {
     this.setState({circle1: circleNum === 1, circle2: circleNum === 2, circle3: circleNum === 3, circle4: circleNum === 4})
   }
-
-//need proper state
-//need to setstate
-//need onclick
-//need to update state
+//To do On Sat am.
+//in the morning i can fork it and remove 
+//the custom classes and build the state as
+//circle, create an updateCircle function, then
+//add the updateCircle function as part of the onclick in the button
 
   render() {
     return (
